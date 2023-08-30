@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(9, 16, 68);
+    perspective: 600px;
+    
+
+}
+
+.container{
+    width: 100%;
+    height: vh;
+    padding-top:50px;
+    
+} 
+h1{
+    color: #fff;
+}   
+
+.parent{
+    text-align: center;
+    font-size: 36px;
+    color: #161b1a;
+    position: relative; 
+    
+
+}
+.details{
+    font-size: 18px;
+    padding: 40px;
+    padding-top: 60px;
+    color: #676161;
+}
+
+.card1{
+    width: 150px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: #1b1818;
+    position: absolute;    
+    animation-name: change1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    box-shadow: 1px 25px 100px  20px rgb(6, 239, 228);
+    transform-style: preserve-3d;
+}
+@keyframes change1{
+    0%{
+        background-color:rgb(234, 168, 220) ;
+        left: 0;
+
+    }
+    50%{
+        width: 250px;
+        left: 1200px;
+
+    }
+    100%{
+        background-image:url(../images1/download.jpeg);
+        background-size: cover;
+        left: 1200px;
+
+    }
+}
+    .card1:hover{        
+        width: 250px;
+        height: 190px;
+    }
+
+.card2{
+    width: 150px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: black;
+    margin-left: 1200px;
+    position: absolute;
+    margin-top: 8%;
+    animation-name: change2;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    box-shadow: 1px 25px 100px  20px rgb(6, 239, 228);
+}
+
+.card2:hover{    
+    
+    width: 250px;
+    height: 190px;
+}
+@keyframes change2{
+    0%{
+        background-color: rgb(234, 168, 220);
+        right: 0;
+    }
+    50%{
+        width: 250px;
+        right: 1200px;
+    }
+    100%{
+        background-image: url(../images1/images\ \(2\).jpeg);
+        background-size: cover;
+        right: 1200px;
+    }
+}
+/* //////////////////////////////////////////// */
+.card3{
+    width: 150px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: black;
+    margin-top: 17%;
+    position: absolute;
+    animation-name: change3;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    box-shadow: 1px 25px 100px  20px rgb(6, 239, 228);
+}
+
+@keyframes change3{
+    0%{
+        background-color: rgb(234, 168, 220);
+        left: 0;
+
+    }
+    50%{
+        width: 250px;
+        left: 1200px;
+
+    }
+    100%{
+        background-image: url(../images1/images\ \(4\).jpeg);
+        background-size: cover;
+        left: 1200px;
+
+    }
+}
+.card3:hover{        
+    width: 250px;
+    height: 190px;
+}
+    /* ////////////////////////////////////////////////// */
+
+.card4{
+    width: 150px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: black;
+    margin-left: 1200px;
+    position: absolute;
+    margin-top: 25%;
+    animation-name: change4;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+    box-shadow: 1px 25px 100px  20px rgb(6, 239, 228);
+}
+
+
+.card4:hover{        
+    width: 250px;
+    height: 190px;
+}
+@keyframes change4{
+    0%{
+        background-color: rgb(234, 168, 220);
+        right: 0;
+    }
+    50%{
+        width: 250px;
+        right: 1200px;
+    }
+    100%{
+        background-image:url(../images1/images\ \(3\).jpeg);
+        background-size: cover;
+        right: 1200px;
+    }
+}
+
+
+.card5{
+    width: 150px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: black;
+    margin-top: 33%;
+    position: absolute;
+    animation-name: change5;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-fill-mode: both;
+    box-shadow: 1px 25px 100px  20px rgb(6, 239, 228);
+}
+
+@keyframes change5{
+    0%{
+        background-color: rgb(234, 168, 220);
+        left: 0;
+
+    }
+    50%{
+        width: 250px;
+        left: 1200px;
+
+    }
+    100%{
+    background-image: url(../images1/images\ \(5\).jpeg);
+    background-size: cover;
+        left: 1200px;
+
+    }
+}
+
+.card5:hover{        
+    width: 250px;
+    height: 190px;
+}
+
+.card6{
+    width: 150px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: black;
+    margin-left: 1300px;
+    position: absolute;
+    margin-top: 41%;
+    animation-name: change6;
+    animation-duration: 2s;
+    animation-delay: 12s;
+    animation-fill-mode: both;
+    box-shadow: 1px 25px 100px  20px rgb(6, 239, 228);
+}
+
+
+.card6:hover{        
+    width: 250px;
+    height: 190px;
+}
+@keyframes change6{
+    0%{
+        background-color: rgb(234, 168, 220);
+        right: 0;
+    }
+    50%{
+        width: 250px;
+        right: 1200px;
+    }
+    100%{
+        background-image:url(../images1/lovely-girl-smiling-classroom_1098-308.avif);
+        background-size: cover;
+        right: 1200px;
+    }
+}
+.card6:hover{        
+    width: 250px;
+    height: 190px;
+}
+
+
+
+    
+        
+    
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+   
+ 
+    
+    
